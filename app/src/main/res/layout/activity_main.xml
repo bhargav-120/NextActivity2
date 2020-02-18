@@ -7,6 +7,19 @@
     android:background="@color/mainbackground"
     tools:context=".MainActivity">
 
+    <Button
+        android:id="@+id/next_button2"
+        android:layout_width="149dp"
+        android:layout_height="29dp"
+        android:background="@drawable/round_button"
+        android:text="Payment"
+        android:textColor="#D7FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText"
+        app:layout_constraintVertical_bias="0.489" />
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
